@@ -1,0 +1,108 @@
+<!-- <html>
+    <head>
+        <title>Registration Form</title>
+    </head>
+    <body bgcolor="#90EE90">
+        <center>
+
+            <h3 style="color:red">Personal Details</h3>
+
+                Name:
+                <input type="text" name="name" id="name"><br><br>
+
+                Password:
+                <input type="password" name="password" id="password"><br><br>
+
+                E-mail id:
+                <input type="text" name="name" id="name"><br><br>
+
+                Gender:
+                <input type="radio" name="radiogroup1" value="radio" id="radiogroup1"> Male
+                <input type="radio" name="radiogroup1" value="radio" id="radiogroup2"> Female<br><br>
+
+                Contact No.:
+                <input type="number" name="mobile" id="mobile">
+                <h3 style="color:red">More Information</h3>
+
+                Blood Group:
+                <select name="degree" id="degree"><option selected>-- Select Group --</option>
+
+                <option selected> O- </option>
+                    <option selected> O+ </option>
+                    <option selected> B+ </option>
+            <option selected> A+ </option>
+                        <option selected> B- </option>
+                <option selected> A-  </option>
+                    <option selected> AB- </option>
+                        <option selected> AB+ </option>
+                </select><br><br>
+
+                Age:
+                <select name="eng" id="eng">
+                <option selected> <18 </option>
+                    <option selected> >18 && <50 </option>
+                        <option selected> >50 </option>
+                </select><br><br>
+
+                Hobbies:
+                <input type="checkbox" name="CheckboxGroup1" value="checkbox" id="CheckboxGroup1">Playing chess
+                <input type="checkbox" name="CheckboxGroup1" value="checkbox" id="CheckboxGroup2">Reading Books<br><br>
+                <h3 style="color:red">Address</h3>
+                <textarea name="textarea" cols="30" rows="6" id="textarea"></textarea><br>
+                <br>
+
+                Attach Previous medical information :
+                <input type="file" name="Field" id="Field"><br><br>
+                <input type="button" value="Register Now" name="b1"/>
+            </form>
+        </center>
+
+        </table>
+    </body>
+</html>  -->
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css">
+<script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"></script>
+<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"></script>
+</head>
+<body>
+    <div class="container mt-5">
+        <div class="card">
+            <div class="card-header bg-dark text-white">
+                <h2 class="text-center">Appointment Form</h2>
+            </div>
+            <div class="card-body">
+                <form>
+                    <div class="form-group">
+                        <label for="patientName">Patient's Name</label>
+                        <input type="text" class="form-control" id="patientName" placeholder="Enter your name" required>
+                    </div>
+                    <div class="form-group">
+                        <label for="contactNumber">Contact Number</label>
+                        <input type="tel" class="form-control" id="contactNumber" placeholder="Enter your phone number" required>
+                    </div>
+                    <div class="form-group">
+                        <label for="preferredDate">Preferred Date</label>
+                        <input type="date" class="form-control" id="preferredDate" required>
+                    </div>
+                    <div class="form-group">
+                        <label for="preferredTime">Preferred Time</label>
+                        <input type="time" class="form-control" id="preferredTime" required>
+                    </div>
+                    <div class="form-group">
+                        <label for="message">Message</label>
+                        <textarea class="form-control" id="message" rows="3" placeholder="Any additional information"></textarea>
+                    </div>
+                    <button type="submit" class="btn btn-primary">Submit Appointment</a></button></a>
+                </form>
+            </div>
+        </div>
+    </div>
+</body>
+</html>
